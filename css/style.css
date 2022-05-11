@@ -57,15 +57,9 @@
     background-color: #1abc9c;
 }
 
-.main-top-content {
-    /* margin-top: 200px;
-    margin-right: 50px; */
 
-}
 
-.main-top-img {
-    /* margin-left: 140px; */
-}
+
 .main-top-title {
 
     margin-top: 30px;
@@ -142,10 +136,7 @@
     margin-top: 40px;
    
 }
-.section-row-top-boxs {
-    /* display: flex;
-    flex-wrap: wrap; */
-}
+
 @media screen and (max-width: 1400px) {
    
     .section-box-top{
@@ -346,8 +337,7 @@ background-color: #CCB2A3;
 .form-group {
     width: 600px;
 }
-.form-control {
-}
+
 .mobile-btn{
     margin-top: 20px;
     
@@ -486,10 +476,7 @@ input{
    text-align: center;
     font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.footer-text-icon {
-    /* margin-left: 40px; */
-    
-}
+
 .footer-icon-flex {
     display: flex;
     text-align: center;
