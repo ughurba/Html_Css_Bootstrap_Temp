@@ -12,6 +12,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 1;
 
 }
 
@@ -31,7 +32,7 @@
     margin-right: 150px;
 }
 
-.nav-link {
+.nav-links {
     margin-right: 40px;
     font-size: 17px;
     font-weight: 700;
@@ -57,13 +58,13 @@
 }
 
 .main-top-content {
-    margin-top: 200px;
-    margin-right: 50px;
+    /* margin-top: 200px;
+    margin-right: 50px; */
 
 }
 
 .main-top-img {
-    margin-left: 140px;
+    /* margin-left: 140px; */
 }
 .main-top-title {
 
@@ -142,7 +143,18 @@
    
 }
 .section-row-top-boxs {
-    display: flex;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+@media screen and (max-width: 1400px) {
+   
+    .section-box-top{
+        margin-top: 50px;
+    }
+    .section-box-bottom{
+        margin-top: 50px;
+        
+    }
 }
 .section-box-top {
     width: 400px;
@@ -231,11 +243,18 @@ background-color: #CCB2A3;
     font-size: 1.25rem;
     font-weight: 300;
     color: #ffffff;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+}
+@media screen and (max-width: 576px) {
+    .main-paragraph-bottom{
+        margin-top: 30px;
+    }
+    
 }
 .main-paragraph-bottom:first-child{
     margin: 0;
 }
+
 .btn {
    background-image: url(../img/icons8-инсталлятор-white.png);
    background-repeat: no-repeat;
@@ -274,6 +293,11 @@ background-color: #CCB2A3;
 .contact {
     padding-bottom: 100px;
 }
+.flex-container{
+    display: flex;
+    
+    justify-content: center;
+}
 .contact-all {
     display: flex;
     flex-direction: column;
@@ -310,6 +334,50 @@ background-color: #CCB2A3;
     justify-content: center;
     margin-top: 60px;
 }
+
+
+/* Mobile device form */
+
+
+
+.form-mobile-device {
+    display: none;
+}
+.form-group {
+    width: 600px;
+}
+.form-control {
+}
+.mobile-btn{
+    margin-top: 20px;
+    
+}
+
+.mobile-device{
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width: 600px){
+    .form-group{
+        width: 300px !important;
+    }
+   
+}
+@media screen and (max-width: 760px) {
+    .form-mobile-device{
+        display: block  ;
+        
+    }
+   
+    
+    .form-computer{
+        display: none;
+    }
+        
+    }
+/*------------------------------------------*/
+
 input{
     width: 746px;
     border: none;
